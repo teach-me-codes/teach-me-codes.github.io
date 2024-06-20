@@ -1,8 +1,5 @@
 # Teachme.Codes
 
-
-![img](img/icon.png)
-
 ### References
 
 1. https://codepen.io/gschoppe/pen/NBaELE
