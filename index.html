@@ -1,734 +1,815 @@
-<!DOCTYPE html>
-<html lang="zxx" class="no-js">
-
+<!-- /*
+* Template Name: Learner
+* Template Author: Untree.co
+* Tempalte URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!doctype html>
+<html lang="en">
 <head>
-  <!-- Mobile Specific Meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="img/fav.png" />
-  <!-- Author Meta -->
-  <meta name="author" content="colorlib" />
-  <!-- Meta Description -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Untree.co">
+  <link rel="shortcut icon" href="favicon.png">
+
   <meta name="description" content="" />
-  <!-- Meta Keyword -->
-  <meta name="keywords" content="" />
-  <!-- meta character set -->
-  <meta charset="UTF-8" />
-  <!-- Site Title -->
-  <title>TeachMe.Codes</title>
+  <meta name="keywords" content="bootstrap, bootstrap4" />
 
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Roboto:400,400i,500,700" rel="stylesheet" />
-  <!--
-      CSS
-      =============================================
-    -->
-  <link rel="stylesheet" href="css/linearicons.css" />
-  <link rel="stylesheet" href="css/font-awesome.min.css" />
-  <link rel="stylesheet" href="css/bootstrap.css" />
-  <link rel="stylesheet" href="css/magnific-popup.css" />
-  <link rel="stylesheet" href="css/owl.carousel.css" />
-  <link rel="stylesheet" href="css/nice-select.css">
-  <link rel="stylesheet" href="css/hexagons.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css" />
-  <link rel="stylesheet" href="css/main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Display+Playfair:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
 
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ECS7B3X8JM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-  gtag('config', 'G-ECS7B3X8JM');
-</script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
 
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-M8RGC2CX');</script>
-<!-- End Google Tag Manager -->
-  
-
-  
+  <title>Teach Me Codes</title>
 </head>
 
 <body>
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M8RGC2CX"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+  <div class="site-mobile-menu">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close">
+        <span class="icofont-close js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
 
 
-
-  <!-- ================ Start Header Area ================= -->
-  <header class="default-header">
-    <nav class="navbar navbar-expand-lg  navbar-light">
+  
+  <nav class="site-nav mb-5">
+    <div class="pb-2 top-bar mb-3">
       <div class="container">
-        <a class="navbar-brand" href="index.html">
-         
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="lnr lnr-menu"></span>
-        </button>
+        <div class="row align-items-center">
 
-        <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#courses">Courses</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="https://tutorials.teachme.codes">Tutorials</a></li>
-            <li><a href="https://books.teachme.codes">Books</a></li>
-            <li><a href="https://docs.teachme.codes">Docs</a></li>
-            
+          <div class="col-6 col-lg-9">
+            <a href="#" class="small mr-3"><span class="icon-question-circle-o mr-2"></span> <span class="d-none d-lg-inline-block">Have a questions?</span></a> 
+            <a href="#" class="small mr-3"><span class="icon-phone mr-2"></span> <span class="d-none d-lg-inline-block">10 20 123 456</span></a> 
+            <a href="#" class="small mr-3"><span class="icon-envelope mr-2"></span> <span class="d-none d-lg-inline-block">contact@teachme.codes</span></a> 
+          </div>
 
-            <li>
-              <button class="search">
-                <span class="lnr lnr-magnifier" id="search"></span>
-              </button>
+          <div class="col-6 col-lg-3 text-right">
+            <a href="login.html" class="small mr-3">
+              <span class="icon-lock"></span>
+              Log In
+            </a>
+            <a href="register.html" class="small">
+              <span class="icon-person"></span>
+              Register
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="sticky-nav js-sticky-header">
+      <div class="container position-relative">
+        <div class="site-navigation text-center">
+          <a href="index.html" class="logo menu-absolute m-0">Teach Me Codes<span class="text-primary">.</span></a>
+
+          <ul class="js-clone-nav d-none d-lg-inline-block site-menu">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="has-children">
+              <a href="#">Dropdown</a>
+              <ul class="dropdown">
+                <li><a href="elements.html">Elements</a></li>
+                <li class="has-children">
+                  <a href="#">Menu Two</a>
+                  <ul class="dropdown">
+                    <li><a href="#">Sub Menu One</a></li>
+                    <li><a href="#">Sub Menu Two</a></li>
+                    <li><a href="#">Sub Menu Three</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Menu Three</a></li>
+              </ul>
             </li>
+            <li><a href="staff.html">Our Staff</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
+
+          <a href="#" class="btn-book btn btn-secondary btn-sm menu-absolute">Enroll Now</a>
+
+          <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
+            <span></span>
+          </a>
+
         </div>
       </div>
-    </nav>
-    <div class="search-input" id="search-input-box">
-      <div class="container">
-        <form class="d-flex justify-content-between">
-          <input type="text" class="form-control" id="search-input" placeholder="Search Here" />
-          <button type="submit" class="btn"></button>
-          <span class="lnr lnr-cross" id="close-search" title="Close Search"></span>
-        </form>
+    </div>
+  </nav>
+  
+  
+
+  <div class="untree_co-hero overlay" style="background-image: url('images/hero-img-1-min.jpg');">
+
+
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+
+        <div class="col-12">
+
+          <div class="row justify-content-center ">
+
+            <div class="col-lg-6 text-center ">
+              <a href="#" href="https://vimeo.com/342333493" data-fancybox data-aos="fade-up" data-aos-delay="0" class="caption mb-4 d-inline-block">Watch the video</a>
+
+              <h1 class="mb-4 heading text-white" data-aos="fade-up" data-aos-delay="100"> Explore our Learning Portals</h1>
+              <p class="mb-0" data-aos="fade-up" data-aos-delay="300"><a href="#" class="btn btn-secondary">Explore Courses</a></p>
+              <br>
+              <h1 class="mb-4 heading text-white" data-aos="fade-up" data-aos-delay="100"> Under Construction...</h1>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+
+  </div> <!-- /.untree_co-hero -->
+
+
+
+
+  <div class="untree_co-section">
+    <div class="container"> 
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="0">
+          <h2 class="line-bottom text-center mb-4">We Have the Best Learning Portals</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature">
+            <span class="uil uil-atom"></span>
+            <h3>Physics Learning Portals</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature">
+            <span class="uil uil-calculator"></span>
+            <h3>Math Learning Portals</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="feature">
+            <span class="uil uil-laptop"></span>
+            <h3>Computing Learning Portals</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+
+
+        <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay=100">
+          <div class="feature">
+            <span class="uil uil-circuit"></span>
+            <h3>Artificial Intelligence (AI) Learning Portals </h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature">
+            <span class="uil uil-dna"></span>
+            <h3>Web of Life Learning portals</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="feature">
+            <span class="uil uil-snowflake"></span>
+            <h3>Standard Models Learing Portals</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+      </div>
+    </div> <!-- /.container -->
+  </div> <!-- /.untree_co-section -->
+
+
+
+
+  
+
+  <div class="services-section">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-4 mb-5 mb-lg-0">
+
+          <div class="section-title mb-3" data-aos="fade-up" data-aos-delay="0">
+            <h2 class="line-bottom mb-4">Become an Instructor</h2>
+          </div>
+
+          <p data-aos="fade-up" data-aos-delay="100">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+
+          <ul class="ul-check list-unstyled mb-5 primary" data-aos="fade-up" data-aos-delay="200">
+            <li>Behind the word Mountains.</li>
+            <li>Far far away Mountains.</li>
+            <li>Large language Ocean.</li>
+          </ul>
+
+          <p data-aos="fade-up" data-aos-delay="300"><a href="#" class="btn btn-primary">Get Started</a></p>
+
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+          <figure class="img-wrap-2">
+            <img src="images/teacher-min.jpg" alt="Image" class="img-fluid">
+            <div class="dotted"></div>
+          </figure>
+
+        </div>
       </div>
     </div>
-  </header>
-  <!-- ================ End Header Area ================= -->
+  </div>
 
-  <!-- ================ start banner Area ================= -->
-  <section class="home-banner-area">
+
+
+
+
+
+
+  <div class="untree_co-section">
     <div class="container">
-      <div class="row justify-content-center fullscreen align-items-center">
-        <div class="col-lg-5 col-md-8 home-banner-left">
+      <div class="row justify-content-center mb-3">
+        <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="0">
+          <h2 class="line-bottom text-center mb-4">Browse Top Courses</h2>
+        </div>
+      </div>
+      <div class="row align-items-stretch">
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="0">
+          <a href="#" class="category d-flex align-items-start h-100">
+            <div>
+              <i class="uil uil-atom"></i>
+            </div>
+            <div>
+              <h3>Physics Courses</h3>
+              <span>1,391 courses</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <a href="#" class="category d-flex align-items-start h-100">
+            <div>
+              <i class="uil uil-calculator"></i>
+            </div>
+            <div>
+              <h3>Mathematics Courses</h3>
+              <span>3,234 courses</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <a href="#" class="category d-flex align-items-start h-100">
+            <div>
+              <i class="uil uil-laptop"></i>
+            </div>
+            <div>
+              <h3>Computing Courses</h3>
+              <span>931 courses</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <a href="#" class="category d-flex align-items-start h-100">
+            <div>
+              <i class="uil uil-circuit"></i>
+            </div>
+            <div>
+              <h3>Artificial Intelligence (AI) Courses</h3>
+              <span>7,291 courses</span>
+            </div>
+          </a>
+        </div>
 
-          <h1 class="text-white">TeachMe.Codes</h1>
-          <br>
 
-          <h2 class="text-white">
-            Personalizing your learning <br>
-            platform to meet the excellence 
-          </h2>
-          <p class="mx-auto text-white  mt-20 mb-40">
-            Building a personalized AI-guided educational platform for Mathematics, Programming and Scientific Computing
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="0">
+          <a href="#" class="category d-flex align-items-start h-100">
+            <div>
+              <i class="uil uil-dna"></i>
+            </div>
+            <div>
+              <h3>Web of Life Courses</h3>
+              <span>9,114 courses</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <a href="#" class="category d-flex align-items-start h-100">
+            <div>
+              <i class="uil uil-snowflake"></i>
+            </div>
+            <div>
+              <h3>Standard Models Courses</h3>
+              <span>2,391 courses</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <a href="#" class="category d-flex align-items-start h-100">
+            <div>
+              <i class="uil uil-brain"></i>
+            </div>
+            <div>
+              <h3>Brain-Computer Interface (BCI) Courses</h3>
+              <span>7,991 courses</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <a href="#" class="category d-flex align-items-start h-100">
+            <div>
+              <i class="uil uil-circle-layer"></i>
+            </div>
+            <div>
+              <h3>Consciousness Courses</h3>
+              <span>6,491 courses</span>
+            </div>
+          </a>
+        </div>
+        
+
+      </div>
+
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="400">
+        <div class="col-lg-8 text-center">
+          <p>We have more category here. <a href="#">Browse all</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="untree_co-section bg-light">
+    <div class="container"> 
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="0">
+          <h2 class="line-bottom text-center mb-4">The Right Course For You</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="custom-media">
+            <a href="#"><img src="images/img-school-1-min.jpg" alt="Image" class="img-fluid"></a>
+            <div class="custom-media-body">
+              <div class="d-flex justify-content-between pb-3">
+                <div class="text-primary"><span class="uil uil-book-open"></span> <span>43 lesson</span></div>
+                <div class="review"><span class="icon-star"></span> <span>4.8</span></div>
+              </div>
+              <h3>Education Program Title</h3>
+              <p class="mb-4">Lorem ipsum dolor sit amet once is consectetur adipisicing elit optio.</p>
+              <div class="border-top d-flex justify-content-between pt-3 mt-3 align-items-center">
+                <div><span class="price">$87.00</span></div>
+                <div><a href="#">Learn More</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="custom-media">
+            <a href="#"><img src="images/img-school-2-min.jpg" alt="Image" class="img-fluid"></a>
+            <div class="custom-media-body">
+              <div class="d-flex justify-content-between pb-3">
+                <div class="text-primary"><span class="uil uil-book-open"></span> <span>43 lesson</span></div>
+                <div class="review"><span class="icon-star"></span> <span>4.8</span></div>
+              </div>
+              <h3>Education Program Title</h3>
+              <p class="mb-4">Lorem ipsum dolor sit amet once is consectetur adipisicing elit optio.</p>
+              <div class="border-top d-flex justify-content-between pt-3 mt-3 align-items-center">
+                <div><span class="price">$93.00</span></div>
+                <div><a href="#">Learn More</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="custom-media">
+            <a href="#"><img src="images/img-school-3-min.jpg" alt="Image" class="img-fluid"></a>
+            <div class="custom-media-body">
+              <div class="d-flex justify-content-between pb-3">
+                <div class="text-primary"><span class="uil uil-book-open"></span> <span>43 lesson</span></div>
+                <div class="review"><span class="icon-star"></span> <span>4.8</span></div>
+              </div>
+              <h3>Education Program Title</h3>
+              <p class="mb-4">Lorem ipsum dolor sit amet once is consectetur adipisicing elit optio.</p>
+              <div class="border-top d-flex justify-content-between pt-3 mt-3 align-items-center">
+                <div><span class="price">$65.00</span></div>
+                <div><a href="#">Learn More</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <div class="untree_co-section pt-0 bg-img overlay" style="background-image: url('images/img-school-1-min.jpg');">
+    <div class="container">
+      <div class="row align-items-center justify-content-center text-center">
+        <div class="col-lg-7">
+          <h2 class="text-white mb-3" data-aos="fade-up" data-aos-delay="0">Education for Tomorrow's Leaders</h2>
+          <p class="text-white h5 mb-4" data-aos="fade-up" data-aos-delay="100">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          <p><a href="#" class="btn btn-secondary" data-aos="fade-up" data-aos-delay="200">Enroll Now</a></p>
+        </div>
+      </div>
+    </div>  
+  </div> <!-- /.untree_co-section -->
+
+  <div class="untree_co-section">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-5 mb-5">
+          <h2 class="line-bottom mb-4" data-aos="fade-up" data-aos-delay="0">About Us</h2>
+          <p data-aos="fade-up" data-aos-delay="100">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          <ul class="list-unstyled ul-check mb-5 primary" data-aos="fade-up" data-aos-delay="200">
+            <li>Separated they live</li>
+            <li>Bookmarksgrove right at the coast</li>
+            <li>large language ocean</li>
+          </ul>
+
+          <div class="row count-numbers mb-5">
+            <div class="col-4 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+              <span class="counter d-block"><span data-number="12023">0</span><span>+</span></span>
+              <span class="caption-2">No. Students</span>
+            </div>
+            <div class="col-4 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+              <span class="counter d-block"><span data-number="49">0</span><span></span></span>
+              <span class="caption-2">No. Teachers</span>
+            </div>
+            <div class="col-4 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+              <span class="counter d-block"><span data-number="12">0</span><span></span></span>
+              <span class="caption-2">No. Awards</span>
+            </div>
+          </div>
+
+          <p data-aos="fade-up" data-aos-delay="200">
+            <a href="#" class="btn btn-primary mr-1">Admission</a>
+            <a href="#" class="btn btn-outline-primary">Learn More</a>
           </p>
         </div>
-        <div class="offset-lg-2 col-lg-5 col-md-12 home-banner-right">
-          <img class="img-fluid" src="img/header-img.png" alt="" />
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="bg-1"></div>
+          <a href="https://vimeo.com/342333493" data-fancybox class="video-wrap">
+            <span class="play-wrap"><span class="icon-play"></span></span>
+            <img src="images/img-school-4-min.jpg" alt="Image" class="img-fluid rounded">
+          </a>
         </div>
       </div>
     </div>
-  </section>
-  <!-- ================ End banner Area ================= -->
+  </div> <!-- /.untree_co-section -->
 
-  <!-- ================ Start Feature Area ================= -->
-  <section class="feature-area">
-    <div class="container-fluid">
-      <div class="feature-inner row">
-
-
-        <div class="col-lg-2 col-md-6">
-          <div class="feature-item d-flex">
-            <i class="ti-book"></i>
-            <div class="ml-20">
-              <h4>Mathematics</h4>
-              <p>
-                Set Theory, Calculus, Linear Algebra, Modern Algebra, Topology, Graph and Network Theory
-              </p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-lg-2 col-md-6">
-          <div class="feature-item d-flex">
-            <i class="ti-desktop"></i>
-            <div class="ml-20">
-              <h4>Programming</h4>
-              <p>
-               Coding, Data-structures and Algorithms, Object Oriented Programming, Functional Programming, Molecular Programming
-              </p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-lg-2 col-md-6">
-          <div class="feature-item d-flex border-right-0">
-            <i class="ti-cup"></i>
-            <div class="ml-20">
-              <h4>Scientific Computing</h4>
-              <p>
-                Optimization, Simulation, Machine Learning, Quantum Computing, DNA Computing, Cellular Automaton
-              </p>
-            </div>
-          </div>
-        </div>
-
-
-
-      </div>
-    </div>
-  </section>
-  <!-- ================ End Feature Area ================= -->
-
-  <!-- ================ Start Popular Course Area ================= -->
-  <section class="popular-course-area section-gap" id = "courses">
-    <div class="container-fluid">
-      <div class="row justify-content-center section-title">
-        <div class="col-lg-12">
-          <a href="tutorial/tutorials.html">
-          <h2>
-            Building your Persionalized Learning Trajectory <br />
-          </h2>
-        </a>
-          <p>
-            We build your persionalized AI-guide to lead, evaluate and enhance your overall accomplishments.
-          </p>
-        </div>
-      </div>
-      <div class="owl-carousel popuar-course-carusel">
-        <div class="single-popular-course">
-          <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/popular-course/linux.png" alt="" />
-          </div>
-          <div class="details">
-            <div class="d-flex justify-content-between mb-20">
-              <p class="name">Linux</p>
-              <p class="value">Tutorials</p>
-            </div>
-            <a href="https://learning.teachme.codes/linux">
-              <h4>Learn Fundamental of Linux</h4>
-            </a>
-            <div class="bottom d-flex mt-15">
-              <ul class="list">
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-              </ul>
-              <p class="ml-20">25 Reviews</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="single-popular-course">
-          <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/popular-course/python.png" alt="" />
-          </div>
-          <div class="details">
-            <div class="d-flex justify-content-between mb-20">
-              <p class="name">Python Basics</p>
-              <p class="value">Tutorials</p>
-            </div>
-            <a href="https://learning.teachme.codes/python">
-              <h4>Learn Basics of Python</h4>
-            </a>
-            <div class="bottom d-flex mt-15">
-              <ul class="list">
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-              </ul>
-              <p class="ml-20">25 Reviews</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="single-popular-course">
-          <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/popular-course/numpy.png" alt="" />
-          </div>
-          <div class="details">
-            <div class="d-flex justify-content-between mb-20">
-              <p class="name">Numpy</p>
-              <p class="value">Tutorials</p>
-            </div>
-            <a href="https://learning.teachme.codes/numpy">
-              <h4>Learn Basics of Numpy</h4>
-            </a>
-            <div class="bottom d-flex mt-15">
-              <ul class="list">
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-              </ul>
-              <p class="ml-20">25 Reviews</p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="single-popular-course">
-          <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/popular-course/pandas.png" alt="" />
-          </div>
-          <div class="details">
-            <div class="d-flex justify-content-between mb-20">
-              <p class="name">Pandas</p>
-              <p class="value">Tutorials</p>
-            </div>
-            <a href="https://learning.teachme.codes/pandas">
-              <h4>Learn Basics of Pandas</h4>
-            </a>
-            <div class="bottom d-flex mt-15">
-              <ul class="list">
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-              </ul>
-              <p class="ml-20">25 Reviews</p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="single-popular-course">
-          <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/popular-course/scipy.png" alt="" />
-          </div>
-          <div class="details">
-            <div class="d-flex justify-content-between mb-20">
-              <p class="name">Scipy</p>
-              <p class="value">Tutorials</p>
-            </div>
-            <a href="https://learning.teachme.codes/scipy">
-              <h4>Learn Basics of Scipy</h4>
-            </a>
-            <div class="bottom d-flex mt-15">
-              <ul class="list">
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-              </ul>
-              <p class="ml-20">25 Reviews</p>
-            </div>
-          </div>
-        </div>
-
-
-
-        <div class="single-popular-course">
-          <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/popular-course/ml.png" alt="" />
-          </div>
-          <div class="details">
-            <div class="d-flex justify-content-between mb-20">
-              <p class="name">Machine Learning</p>
-              <p class="value">Tutorials</p>
-            </div>
-            <a href="https://learning.teachme.codes/machine-learning">
-              <h4>Learn Basics of Machine Learning</h4>
-            </a>
-            <div class="bottom d-flex mt-15">
-              <ul class="list">
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-              </ul>
-              <p class="ml-20">25 Reviews</p>
-            </div>
-          </div>
-        </div>
-
-      
-<!--
-        <div class="single-popular-course">
-          <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/popular-course/q.png" alt="" />
-          </div>
-          <div class="details">
-            <div class="d-flex justify-content-between mb-20">
-              <p class="name">Quantum Computing</p>
-              <p class="value">Tutorials</p>
-            </div>
-            <a href="#">
-              <h4>Learn Basics of Quantum Computing</h4>
-            </a>
-            <div class="bottom d-flex mt-15">
-              <ul class="list">
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-              </ul>
-              <p class="ml-20">25 Reviews</p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="single-popular-course">
-          <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/popular-course/sc.png" alt="" />
-          </div>
-          <div class="details">
-            <div class="d-flex justify-content-between mb-20">
-              <p class="name">Scientific Computing</p>
-              <p class="value">Tutorials</p>
-            </div>
-            <a href="#">
-              <h4>Learn Scientific Computing with Python</h4>
-            </a>
-            <div class="bottom d-flex mt-15">
-              <ul class="list">
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-star"></i></a>
-                </li>
-              </ul>
-              <p class="ml-20">25 Reviews</p>
-            </div>
-          </div>
-        </div>
-
---->
-      </div>
-    </div>
-  </section>
-  <!-- ================ End Popular Course Area ================= -->
-
-  <!-- ================ Start Video Area ================= -->
-  <section class="video-area section-gap-bottom">
+  <div class="untree_co-section bg-light">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-5">
-          <div class="section-title text-white">
-            <h2 class="text-white">
-              Watch Our Trainers <br>
-              in Live Action
-            </h2>
-            <p>
-              "Data Scientist" is a decade old (2010-2019) concept. For the new decade (2020-2030), it is "Quantum Solution Scientist". Where are you?
-            </p>
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="0">
+          <h2 class="line-bottom text-center mb-4">School News</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        </div>
+      </div>
+      <div class="row align-items-stretch">
+        <div class="col-lg-6"  data-aos="fade-up" data-aos-delay="100">
+          <div class="media-h d-flex h-100">
+            <figure>
+              <img src="images/img-school-1-min.jpg" alt="Image">
+            </figure>
+            <div class="media-h-body">
+              <h2 class="mb-3"><a href="#">Education for Tomorrow's Leaders</a></h2>
+              <div class="meta mb-2"><span class="icon-calendar mr-2"></span><span>June 22, 2020</span>  <span class="icon-person mr-2"></span>Admin</div>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <p><a href="#">Learn More</a></p>
+            </div>
           </div>
         </div>
-        <div class="offset-lg-1 col-md-6 video-left">
-          <div class="owl-carousel video-carousel">
-            <div class="single-video">
-              <div class="video-part">
-                <img class="img-fluid" src="img/video-img.jpg" alt="">
-                <div class="overlay"></div>
-                <a class="popup-youtube play-btn" href="https://www.youtube.com/watch?v=VufDd-QL1c0">
-                  <img class="play-icon" src="img/play-btn.png" alt="">
-                </a>
-              </div>
-              <h4 class="text-white mb-20 mt-30">Learn Quantum Computing today for better tomorrow</h4>
-              <p class="text-white mb-20">
-                "Data Scientist" is a decade old (2010-2019) concept. For the new decade (2020-2030), it is "Quantum Solution Scientist". Where are you?
-              </p>
-            </div>
-
-            <div class="single-video">
-              <div class="video-part">
-                <img class="img-fluid" src="img/video-img.jpg" alt="">
-                <div class="overlay"></div>
-                <a class="popup-youtube play-btn" href="https://www.youtube.com/watch?v=VufDd-QL1c0">
-                  <img class="play-icon" src="img/play-btn.png" alt="">
-                </a>
-              </div>
-              <h4 class="text-white mb-20 mt-30">Learn Quantum Computing today for better tomorrow</h4>
-              <p class="text-white mb-20">
-                "Data Scientist" is a decade old (2010-2019) concept. For the new decade (2020-2030), it is "Quantum Solution Scientist". Where are you?
-              </p>
+        <div class="col-lg-6"  data-aos="fade-up" data-aos-delay="200">
+          <div class="media-h d-flex h-100">
+            <figure>
+              <img src="images/img-school-2-min.jpg" alt="Image">
+            </figure>
+            <div class="media-h-body">
+              <h2 class="mb-3"><a href="#">Enroll Your Kids This Summer to get 30% off</a></h2>
+              <div class="meta mb-2"><span class="icon-calendar mr-2"></span><span>June 22, 2020</span>  <span class="icon-person mr-2"></span>Admin</div>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <p><a href="#">Learn More</a></p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <!-- ================ End Video Area ================= -->
+  </div> <!-- /.untree_co-section -->
 
-<!-- ================ Start Feature Area ================= -->
-  <section class="other-feature-area" id = "features">
+
+  <div class="untree_co-section">
     <div class="container">
-      <div class="feature-inner row">
-        <div class="col-lg-12">
-          <div class="section-title text-left">
-            <h2>
-              Features That <br />
-              Can be Available to Everyone
-            </h2>
-            <p>
-              School or college text-books are organized in tree structure of concepts. Our Learning materials are organized in a giant graph and tree data structure where connections are made through hierarchical relationship of contents, logics, basic concepts and learners average learning patterns. Each learner's learning trajectory is recorded, analyzed and recommendation is made while the achievement is coded into an array of scores. Let the learning be redefined!
-            </p>
-          </div>
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="0">
+          <h2 class="line-bottom text-center mb-4">Pricing</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
         </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="other-feature-item">
-            <i class="ti-key"></i>
-            <h4>I-Initial Assessments</h4>
-            <div>
-              <p>
-              An initial assessment is conducted on every learner's understanding of the subject matter. The initial state is declared through an initial assessment. As a learner starts to learn the concepts, he/she creates a personalized learning trajectory over the vast knowledge-space. As the learner propagates into the vast network of concepts, the learner's knowledge status is updated.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mt--160">
-          <div class="other-feature-item">
-            <i class="ti-files"></i>
-            <h4>II-Learning Trajectory</h4>
-            <div>
-              <p>
-                Every learner is a random walker visiting several nodes in the vast knowledge-space. In each node, a learner learns a specific concept. After completing the content, each learner is asked a specific quiz or problem to measure his/her accomplishment. When a learner visits 50-100 nodes, we prepare a learner's learning trajectory. After accomplishing a sufficient amount of nodes in a specific topic, a learner prepares a finger-printing of own learning attitude, understanding concepts as a personalized score (tensor).
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-4 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay="00">
+          <div class="pricing">
+            <!-- <div class="pricing-img mb-4"><img src="images/1x/asset-1.png" alt="Image" class="img-fluid"></div> -->
+            <div class="pricing-body">
 
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mt--260">
-          <div class="other-feature-item">
-            <i class="ti-medall-alt"></i>
-            <h4>III-Progress Reports</h4>
-            <div>
-              <p>
+              <h3 class="pricing-plan-title">Starter</h3>
+              <div class="price"><span class="fig">$50.99</span><span>/month</span></div>
+              <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               
-              When a learner learns a sufficient amount of concepts by visiting many concept nodes, we can simultaneously keep updating the learner's progress score in an array highlighting progress in basic math, logic, coding, theory etc. Progress report not only measures the learner's ability to solve the problem, it will also measure the efficiency, exploratory attitude, problem solving strategy development skills etc. Progress report is not created at the end, it is created side by side as a learner propagates into the knowledge-space.
-
-              </p>
+              <p><a href="#" class="btn btn-outline-primary">Get Started</a></p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="other-feature-item">
-            <i class="ti-briefcase"></i>
-            <h4>IV-Special Recomendation</h4>
-            <div>
-              <p>
+        <div class="col-md-6 mb-4 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="pricing">
+            <!-- <div class="pricing-img mb-4"><img src="images/1x/asset-2.png" alt="Image" class="img-fluid"></div> -->
+            <div class="pricing-body">
 
-                As learners start to build up learning history, based on their learning ability, our AI based system activates the different level of exploration (e.g., accessing knowledge-space in research and articles in arxiv organized in graph data structure). On completing one concept, another higher concept in the hierarchy is recommended if required fundamental concepts are done. Recommendation can lead to research level as well. For example a curious explorer can learn and explore the concepts from recently added arxiv contents.
-
-              </p>
+              <h3 class="pricing-plan-title">Business</h3>
+              <div class="price"><span class="fig">$99.99</span><span>/month</span></div>
+              <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              
+              <p><a href="#" class="btn btn-primary">Get Started</a></p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 mt--160">
-          <div class="other-feature-item">
-            <i class="ti-headphone-alt"></i>
-            <h4>V-Basic Concept Detours</h4>
-            <div>
-              <p>
+        <div class="col-md-6 mb-4 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="pricing">
+            <!-- <div class="pricing-img mb-4"><img src="images/1x/asset-3.png" alt="Image" class="img-fluid"></div> -->
+            <div class="pricing-body">
 
-                When a learner feels lacking in basic concepts (e.g., math, coding)  before heading to learn the provided concept (e.g., product of matrices not understood while taking machine learning, a detour is recommended to an algebra brushup). Detour is recommended automatically when a learner is failed to answer or respond interactively in the learning platform. Learners can switch to basic concepts directly through links provided and come back based on their requirement.
-
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mt--260">
-          <div class="other-feature-item">
-            <i class="ti-crown"></i>
-            <h4>V-Additional Exploration and Research</h4>
-            <div>
-              <p>
-              A true structure of a concept or knowledge is a graph and network (e.g., knowledge-graph), not a text-book or a couple of pdf files. Cutting edge computational tools can enhance our learning and exploring exercise. Since our platform is personalized for a learner, it can also guide a researcher to explore vast amounts of knowledge space e.g., arxiv papers in Quantum Computing.
-
-              </p>
+              <h3 class="pricing-plan-title">Premium</h3>
+              <div class="price"><span class="fig">$199.99</span><span>/month</span></div>
+              <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              
+              <p><a href="#" class="btn btn-outline-primary">Get Started</a></p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <!-- ================ End Feature Area ================= -->
+  </div> <!-- /.untree_co-section -->
 
- 
 
-<!-- ================ start footer Area ================= -->
-  <footer class="footer-area section-gap">
+  <div class="untree_co-section bg-light">
     <div class="container">
       <div class="row">
-        <div class="col-lg-2 col-md-6 single-footer-widget">
-          <h4>Top Resources</h4>
-          <ul>
-            <li><a href="https://tutorials.teachme.codes">Online Tutorials</a></li>
-            <li><a href="https://books.teachme.codes">Online Books</a></li>
-            <li><a href="https://docs.teachme.codes">Online Documents</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2 col-md-6 single-footer-widget">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="https://learning.teachme.codes/linux">Fundamentals of Linux</a></li>
-            <li><a href="https://learning.teachme.codes/python">Basic Python</a></li>
-            <li><a href="https://nbviewer.jupyter.org/github/npshub/simulation/tree/master/">Scientific Computing</a></li>
-            <li><a href="https://learning.teachme.codes/numpy">Introduction to Numpy</a></li>
-            <li><a href="https://learning.teachme.codes/pandas">Introduction to Pandas</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2 col-md-6 single-footer-widget">
-          <h4>Features</h4>
-          <ul>
-            <li><a href="https://posts.teachme.codes">Teach me codes at Medium</a></li>
-            <li><a href="#">New courses</a></li>
-            <li><a href="https://learning.teachme.codes/quantum-computing">Quantum Computing</a></li>
-            <li><a href="https://learning.teachme.codes/bioinformatics">Bioinformatics</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2 col-md-6 single-footer-widget">
-          <h4>Resources</h4>
-          <ul>
-            <li><a href="#">Online Lectures</a></li>
-            <li><a href="#">Cheat Sheets</a></li>
-            <li><a href="#">Online Books</a></li>
-            <li><a href="#">Online Tutorials</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-4 col-md-6 single-footer-widget">
-          <h4>Newsletter</h4>
-          <p> Exploration is the first step in self learning! </p>
-          <div class="form-wrap" id="mc_embed_signup">
-            <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-             method="get" class="form-inline">
-              <input class="form-control" name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
-               required="" type="email">
-              <button class="click-btn btn btn-default text-uppercase">subscribe</button>
-              <div style="position: absolute; left: -5000px;">
-                <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-              </div>
+        <div class="col-lg-7 text-center mx-auto">
 
-              <div class="info"></div>
-            </form>
+          <h3 class="line-bottom mb-4">Testimonials</h3>
+          <div class="owl-carousel wide-slider-testimonial">
+            <div class="item">
+              <blockquote class="block-testimonial">
+
+                <p>
+                &ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+                <div class="author">
+                  <img src="images/person_1.jpg" alt="Free template by TemplateUX">
+                  <h3>John Doe</h3>
+                  <p class="position">CEO, Founder</p>
+                </div>
+              </blockquote>
+            </div>
+
+            <div class="item">
+              <blockquote class="block-testimonial">
+
+                <p>
+                &ldquo;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.&rdquo;</p>
+                <div class="author">
+                  <img src="images/person_2.jpg" alt="Free template by TemplateUX">
+                  <h3>James Woodland</h3>
+                  <p class="position">Designer at Facebook</p>
+                </div>
+              </blockquote>
+            </div>
+
+            <div class="item">
+              <blockquote class="block-testimonial">
+
+                <p>
+                &ldquo;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&rdquo;</p>
+                <div class="author">
+                  <img src="images/person_3.jpg" alt="Free template by TemplateUX">
+                  <h3>Rob Smith</h3>
+                  <p class="position">Product Designer at Twitter</p>
+                </div>
+              </blockquote>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="footer-bottom row align-items-center">
-        <p class="footer-text m-0 col-lg-8 col-md-12">
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-        <div class="col-lg-4 col-md-12 footer-social">
-          <a href="https://www.facebook.com/TeachMeCodes-108127920712760/"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-dribbble"></i></a>
-          <a href="#"><i class="fa fa-behance"></i></a>
+
         </div>
       </div>
     </div>
-  </footer>
-  <!-- ================ End footer Area ================= -->
+  </div>
 
-  <script src="js/vendor/jquery-2.2.4.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-    crossorigin="anonymous"></script>
-  <script src="js/vendor/bootstrap.min.js"></script>
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-  <script src="js/jquery.ajaxchimp.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/parallax.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="js/hexagons.min.js"></script>
-  <script src="js/jquery.counterup.min.js"></script>
-  <script src="js/waypoints.min.js"></script>
-  <script src="js/jquery.nice-select.min.js"></script>
-  <script src="js/main.js"></script>
-</body>
 
-</html>
+  <div class="untree_co-section">
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 mr-auto mb-5 mb-lg-0"  data-aos="fade-up" data-aos-delay="0">
+          <img src="images/img-school-5-min.jpg" alt="image" class="img-fluid">
+        </div>
+        <div class="col-lg-7 ml-auto" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="line-bottom mb-4">Why Choose Us</h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+
+          <div class="custom-accordion" id="accordion_1">
+            <div class="accordion-item">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Good Teachers and Staffs</button>
+              </h2>
+
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion_1">
+                <div class="accordion-body">
+                  <div class="d-flex">
+                    <div class="accordion-img mr-4">
+                      <img src="images/img-school-1-min.jpg" alt="Image" class="img-fluid">
+                    </div>
+                    <div>
+                      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- .accordion-item -->
+
+            <div class="accordion-item">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">We Value Good Characters</button>
+              </h2>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion_1">
+                <div class="accordion-body">
+                  <div class="d-flex">
+                    <div class="accordion-img mr-4">
+                      <img src="images/img-school-2-min.jpg" alt="Image" class="img-fluid">
+                    </div>
+                    <div>
+                      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- .accordion-item -->
+            <div class="accordion-item">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Your Children are Safe</button>
+              </h2>
+
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_1">
+                <div class="accordion-body">
+                  <div class="d-flex">
+                    <div class="accordion-img mr-4">
+                      <img src="images/img-school-3-min.jpg" alt="Image" class="img-fluid">
+                    </div>
+                    <div>
+                      <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.</p>
+                      <p>Pityful a rethoric question ran over her cheek, then she continued her way.</p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div> <!-- .accordion-item -->
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div> <!-- /.untree_co-section -->
+
+  <div class="site-footer">
+
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-3 mr-auto">
+          <div class="widget">
+            <h3>About Us<span class="text-primary">.</span> </h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div> <!-- /.widget -->
+          <div class="widget">
+            <h3>Connect</h3>
+            <ul class="list-unstyled social">
+              <li><a href="#"><span class="icon-instagram"></span></a></li>
+              <li><a href="#"><span class="icon-twitter"></span></a></li>
+              <li><a href="#"><span class="icon-facebook"></span></a></li>
+              <li><a href="#"><span class="icon-linkedin"></span></a></li>
+              <li><a href="#"><span class="icon-pinterest"></span></a></li>
+              <li><a href="#"><span class="icon-dribbble"></span></a></li>
+            </ul>
+          </div> <!-- /.widget -->
+        </div> <!-- /.col-lg-3 -->
+
+        <div class="col-lg-2 ml-auto">
+          <div class="widget">
+            <h3>Projects</h3>
+            <ul class="list-unstyled float-left links">
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">HTML5</a></li>
+              <li><a href="#">CSS3</a></li>
+              <li><a href="#">jQuery</a></li>
+              <li><a href="#">Bootstrap</a></li>
+            </ul>
+          </div> <!-- /.widget -->
+        </div> <!-- /.col-lg-3 -->
+
+        <div class="col-lg-3">
+          <div class="widget">
+            <h3>Gallery</h3>
+            <ul class="instafeed instagram-gallery list-unstyled">
+              <li><a class="instagram-item" href="images/gal_1.jpg" data-fancybox="gal"><img src="images/gal_1.jpg" alt="" width="72" height="72"></a>
+              </li>
+              <li><a class="instagram-item" href="images/gal_2.jpg" data-fancybox="gal"><img src="images/gal_2.jpg" alt="" width="72" height="72"></a>
+              </li>
+              <li><a class="instagram-item" href="images/gal_3.jpg" data-fancybox="gal"><img src="images/gal_3.jpg" alt="" width="72" height="72"></a>
+              </li>
+              <li><a class="instagram-item" href="images/gal_4.jpg" data-fancybox="gal"><img src="images/gal_4.jpg" alt="" width="72" height="72"></a>
+              </li>
+              <li><a class="instagram-item" href="images/gal_5.jpg" data-fancybox="gal"><img src="images/gal_5.jpg" alt="" width="72" height="72"></a>
+              </li>
+              <li><a class="instagram-item" href="images/gal_6.jpg" data-fancybox="gal"><img src="images/gal_6.jpg" alt="" width="72" height="72"></a>
+              </li>
+            </ul>
+          </div> <!-- /.widget -->
+        </div> <!-- /.col-lg-3 -->
+
+
+        <div class="col-lg-3">
+          <div class="widget">
+            <h3>Contact</h3>
+            <address>43 Raymouth Rd. Baltemoer, London 3910</address>
+            <ul class="list-unstyled links mb-4">
+              <li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+              <li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+              <li><a href="mailto:info@mydomain.com">info@mydomain.com</a></li>
+            </ul>
+          </div> <!-- /.widget -->
+        </div> <!-- /.col-lg-3 -->
+
+      </div> <!-- /.row -->
+
+      <div class="row mt-5">
+        <div class="col-12 text-center">
+          <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a>  Distributed By <a href="https://themewagon.com">ThemeWagon</a> <!-- License information: https://untree.co/license/ -->
+          </div>
+        </div>
+      </div> <!-- /.container -->
+    </div> <!-- /.site-footer -->
+
+    <div id="overlayer"></div>
+    <div class="loader">
+      <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
+
+  </html>
